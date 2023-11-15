@@ -1,0 +1,12 @@
+.primary {
+  background-color: palevioletred;
+}
+
+.secondary {
+  background-color: gray;
+}
+
+#my-element {
+  width: 100px;
+  height: 100px;
+}
