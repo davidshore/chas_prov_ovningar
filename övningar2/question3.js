@@ -3,7 +3,6 @@
 
 function totalWordLength(word1, word2, word3) {
   //din kod här
-  return word1.length + word2.length + word3.length;
 }
 
 const result = totalWordLength("hej", "på", "dig");

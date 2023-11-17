@@ -16,24 +16,7 @@ const people = [
 
 function updatePeople(peopleArr) {
   // Din kod här:
-  return peopleArr.map((person) => {
-    // person.adult = person.age >= 18;
-    // return person;
-    const adult = person.age >= 18;
-    return { ...person, adult: adult };
-  });
 }
-
-console.log(updatePeople(people));
 
 // 7.2 (2p) Skriv en funktion med arrayen people som input som
 // returnerar en array med bara vuxna. Alltså age minst 18 år.
-
-function filterAdults(peopleArr) {
-  const onlyAdults = peopleArr.filter((person) => {
-    return person.age >= 18;
-  });
-  return onlyAdults;
-}
-
-console.log(filterAdults(people));

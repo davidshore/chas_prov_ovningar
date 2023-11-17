@@ -5,11 +5,3 @@ const cars = [
   { type: "Ford", speed: 80 },
   { type: "Opel", speed: 60 },
 ];
-
-const fastCars = cars.map((car) => {
-  // car.speed = 100;
-  // return car;
-  return { ...car, speed: 100 };
-});
-
-console.log(fastCars);

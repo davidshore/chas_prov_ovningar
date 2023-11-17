@@ -4,7 +4,6 @@
 
 function compareWords(word1, word2) {
   //din kod här
-  return word1.toUpperCase() == word2.toUpperCase();
 }
 
 console.log(compareWords("hej", "HEJ")); // Ska logga true
